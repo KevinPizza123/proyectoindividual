@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="body">
+    <!-- Aqui comienza el Header-->
+    <header id="header">
+      <nav class="navbar navbar-expand-md m-0 p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="#">
+            <img id="logo" src="/img/logo.jpeg" alt="LOGO" />
+            CELL MAX
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+              <li class="nav-item me-4">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Catalogo</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Contactanos</a>
+              </li>
+              <li class="nav-item me-4">
+                <a id="text-llamado" class="nav-link" href="#">Compra</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--  Termina  el Header-->
+    <main id="main">
+      <!-- Aqui comienza el carrusel-->
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="“false”"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/portada2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/portada3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/portada.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <!-- overlay -->
+        <div class="overlay">
+          <div class="container pt-5">
+            <!-- Alinear items al centro-->
+            <div class="row aling-items-center">
+              <div class="col-md-6 offset-md-6 text-center text-lg-rigth">
+                <h1>CELL MAX EQU</h1>
+                <p>
+                Cell Max es una empresa , que vende e importa todo tipó de celulares 
+                al alcance de todos.
+                </p>
+                <a href="#" id="boton-alterno" class="btn ">Quiero trabajar con ustedes</a>
+                <button type="button" class="btn  m-3">Lista de movil  online</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Termina el carrusel-->
+      <!-- Aqui Comienza los productos-->
+      <section id="productos" class="mt-4 mb-4">
+        <div class="container"> 
+          <div class="row">
+            <div class="col text-center text-uppercase">
+              <small>Conoce nuestros productos</small>
+              <h2>PRODUCTOS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row aling-items-center ml-4">
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/a22.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SAMSUNG A72</h5>
+                <p class="card-text">64GB ROM/6GB RAM</p>
+                <a id="btn-2" href="#" class="btn ">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/ihpone11.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IPHONE X</h5>
+                <p class="card-text">256GB ROM/4GB RAM</p>
+                <a id="btn-2" href="#" class="btn ">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/mi10.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">XIAOMI MI 11 ULTRA </h5>
+                <p class="card-text">256GB ROM/12GB RAM</p>
+                <a id="btn-2" href="#" class="btn">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/a32.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SAMSUNG A32</h5>
+                <p class="card-text">128GB ROM/4GB RAM</p>
+                <a id="btn-2" href="#" class="btn ">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/ihpone8plus.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IPHONE 7 PLUS</h5>
+                <p class="card-text">64GB ROM/2GB RAM</p>
+                <a id="btn-2" href="#" class="btn ">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/pocom4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">POCO M4</h5>
+                <p class="card-text">128GB ROM/8GB RAM</p>
+                <a id="btn-2" href="#" class="btn ">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--Termina productos-->
+    <!--Comienza evento y marca-->
+      <section id="evento-marca">
+        <div class="container-fliud">
+          <div class="row">
+            <div class="col-12 col-lg-6 ps-0 pe-0">
+              <img src="/img/evento.jpg" alt="Imagen evento">
+            </div>
+            <div class="col-12 col-lg-6 text-center mt-4 pb-3">
+              <h2>EVENTO XIAOMI</h2>
+              <h3 class="mb-3">Julio-Agosto 2022</h3>
+              <p>CELULARES XIAOMI A PRECIO DE FABRICA. VEN TE ESPERAMOS NO OLVIDES DE VISITARNOS DESDE EL 10 DE JULIO AL 25 DE AGOSTO </p>
+              <a href="#" id="boton-alterno" class="btn">Conoce mas...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--Termina evento y marca -->
+    </main>
+    <!-- Comienza footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="#">Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Contactanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Terminos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Trabaja con VERDI</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Termina footer -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+  ></script>
+</html>
+
+
